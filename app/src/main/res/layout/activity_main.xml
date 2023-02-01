@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="@dimen/_20sdp"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/usertext"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:hint="Email id"
+        android:background="@drawable/edittext_backgound"
+        android:layout_marginTop="@dimen/_100sdp"
+        android:padding="@dimen/_10sdp"/>
+
+
+    <EditText
+        android:id="@+id/passtext"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:hint="Password"
+        android:background="@drawable/edittext_backgound"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:padding="@dimen/_10sdp"/>
+
+    <Button
+        android:id="@+id/signtext"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_gravity="center"
+        android:text="Sign in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/forgettext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:text="Forget Password"
+        android:clickable="true"
+        android:gravity="center"
+        android:textSize="@dimen/_13ssp" />
+
+    <TextView
+        android:id="@+id/regtxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:gravity="center"
+        android:clickable="true"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:textSize="@dimen/_13ssp" />
+</LinearLayout>
